@@ -1,11 +1,4 @@
-
-
-/* x-s Devices which is the default */
-
-
-
-
-/* Adding Color to the background of classes and the body */
+/* Adding Color and correcting margins to the background of classes and the body */
 
 body {
 	background-image: url("assets/images/round.png");
@@ -70,6 +63,11 @@ footer {
 	height:200px;
 }
 
+/* Padding in the navbar to 0 so it centers better */
+.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+	padding: 0px;
+}
+
 
 /* Text alterations */
 
@@ -85,10 +83,6 @@ h3,
 	margin-top: 10px;
 }
 
-/* Padding in the navbar to 0 so it centers better */
-.navbar.navbar-toggleable-md.navbar-light.bg-faded {
-	padding: 0px;
-}
 
 h1 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -127,9 +121,6 @@ subject {
 	letter-spacing: 1px;
 }
 
-
-
-
 /* 
 Image classes
  */
@@ -153,6 +144,8 @@ Image classes
 }
 
 /* Portfolio items */
+
+/* tiles that have  */
 .tileCover {
 	background-color: #4aaaa5;
 	text-align: center;
@@ -169,8 +162,9 @@ Image classes
 .tileWrap {
 	justify-content: space-between;
 }
-
-
+.formWrap {
+	justify-content: space-around;
+}
 
 .tile{
 	background-repeat: no-repeat;
@@ -180,12 +174,14 @@ Image classes
 	padding: 0px;
 }
 
+/* The last tile will justify left and have a larger margin */
 .row.tileWrap:last-child {
 	align-self: flex-start;
 	margin-bottom: 50px;
 	
 }
 
+/* tiles each have their own background */
 .tile1{
 	background-image: url("https://c1.staticflickr.com/5/4386/35627767324_e8d4be6163_b.jpg");
 	
@@ -207,3 +203,9 @@ Image classes
 .tile5{
 	background-image: url("https://c1.staticflickr.com/6/5263/5590077419_1ca729c953_b.jpg");	
 }
+
+/* 
+
+Contact items
+
+*/
