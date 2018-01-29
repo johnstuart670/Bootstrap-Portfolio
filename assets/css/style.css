@@ -7,6 +7,7 @@
 /* Text alterations */
 
 h1, 
+h3,
 .aHeader,
 .navbar-light .navbar-text a ,{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -26,14 +27,22 @@ h1,
 	padding: 0px;
 }
 
-h2,
-h3,
-h4{
-	color:#4aaaa5;
+h1 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	text-align: center;
+	padding: 5px 0px 0px 15px;
+	margin: 0px -15px 5px -15px;
+	background-color: #4aaaa5;
+	color:whitesmoke;
 }
 
+h3 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	padding: 5px 0px 0px 15px;
+	margin: 0px -30px 5px -30px;
+	background-color: #4aaaa5;
+	color:whitesmoke;
+}
+}
 
 p,
 fname,
@@ -48,13 +57,16 @@ subject {
 
 .nav-item{
 	font-size: 16;
-	color:grey;
+	color:whitesmoke;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+
+
 
 /* Adding Color to the background of classes and the body */
 
 body {
-	background-image: url(assets/images/round.png);
+	background-image: url("assets/images/round.png");
 	background-color: coral;
 }
 
@@ -63,38 +75,53 @@ body {
 	background-color: whitesmoke;
 	margin: 5px 0px 5px 0px;
 }
+.navbar-light .navbar-brand,
+.navbar-brand {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+background-color: #4aaaa5;
+width: 100%;
+color: whitesmoke;
+padding: 0px 0px 5px 5px;
+font-size: 2.2rem;
+margin-right:0px;
+margin-left: -15px;ß
 
-.nav-item {
-	width:
 }
-
 
 .container.noWrap {
 	padding: 0px;
 	background-color: whitesmoke;
 	margin-bottom: 0 px;
+	justify-content: space-between
 }
 
 
 .navbar.navbar-light.bg-faded, 
-nav {
+nav,
+.navItems {
 padding-bottom: 0px;
 margin-bottom: 0px;
+background-color:grey;
 }
 
 header {
 	width:100%;
-	background-color: whitesmoke;
+	background-color: grey;
 }
 
 footer {
 	text-align: center;
 	padding: 15px 0px 15px 0px;
-	background-color: whitesmoke;
+	background-color: grey;
 	margin-top: 5px;
 	width: 100%;
 }
 
+.headerCorrection {
+	background-color: #4aaaa5;
+	margin: 0px;
+	padding: 0px 0px 0px 25px;
+}
 
 /* 
 Image classes
