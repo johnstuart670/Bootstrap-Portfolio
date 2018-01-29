@@ -2,7 +2,7 @@
 
 body {
 	background-image: url("assets/images/round.png");
-	background-color: coral;
+	background-color: chocolate;
 	font-size:.85rem;
 }
 
@@ -164,6 +164,9 @@ Image classes
 }
 .formWrap {
 	justify-content: space-around;
+}
+.formWrap:last-child:{
+	margin-bottom: 45px;
 }
 
 .tile{
